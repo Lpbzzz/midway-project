@@ -20,7 +20,7 @@ export class UserController {
   async getUserPost(@Body('id') key: User): Promise<User> {
     console.log('key', key);
     return {
-      id: Number(key) + 999,
+      id: Number(key) + 333,
       name: 'John',
       age: 18,
     };
